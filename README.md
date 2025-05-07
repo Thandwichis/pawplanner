@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🐾 PawPlanner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Keeping Pets Safe, One Walk at a Time.**  
+Never guess if it’s safe to walk your dog again.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧭 Overview
 
-### `npm start`
+**PawPlanner** is a mobile-responsive React app that helps dog owners decide whether it's safe to go for a walk based on real-time weather and surface temperature data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+When walking isn't safe, the app recommends shaded parks and pet-friendly venues nearby using live location data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ✅ Real-time weather and surface temperature
+- ✅ Air quality, UV index, and safety alerts
+- ✅ “Safe” or “Unsafe” walking mode
+- ✅ Recommended or rerouted pet locations
+- ✅ Developer override toggle to simulate conditions
+- ✅ Fully responsive UI (mobile + desktop)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React (via Create React App)
+- React Router DOM
+- Axios for API calls
+- Tomorrow.io Weather API
+- Petfinder API
+- Material UI (MUI)
+- Custom CSS for responsive design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📸 Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Mobile View (Safe) | Desktop View (Split Columns) |
+|--------------------|------------------------------|
+| ![Mobile Safe](public/map-safe.png) | ![Desktop](public/map-unsafe.png) |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔑 API Keys Required
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You must create and add API keys to use the app:
 
-## Learn More
+### 1. Tomorrow.io Weather API
+🔗 https://app.tomorrow.io/development/keys
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Get your API key
+- Used for real-time temperature, UV, air quality, and surface temperature
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2. Petfinder API
+🔗 https://www.petfinder.com/developers/
 
-### Code Splitting
+- Sign up and register an app
+- You'll receive a **Client ID** and **Client Secret**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## ⚙️ How to Run Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 1. Clone the repo
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/YOUR_USERNAME/pawplanner.git
+cd pawplanner
