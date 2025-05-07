@@ -1,0 +1,42 @@
+.welcome-container {
+    background-color: #0052cc;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welcome-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .illustration {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  
+  .get-started-btn {
+    margin-top: 20px;
+    background-color: #ffa500;
+    border: none;
+    color: white;
+    padding: 14px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

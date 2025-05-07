@@ -1,0 +1,26 @@
+.status-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-header.safe {
+    background-color: #0066ff;
+  }
+  
+  .status-header.unsafe {
+    background-color: #ffa500;
+  }
+  
+  .menu-icon {
+    font-size: 1.2rem;
+  }
+  
+  .icons span {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+  
